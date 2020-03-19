@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { Title } from './components/Title';
 
 function App() {
-  return <Title text="Hello World?" />;
+  return <Title text="Hello World!" />;
 }
 
 render(<App />, document.querySelector('#app'));
